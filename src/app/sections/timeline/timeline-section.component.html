@@ -1,0 +1,22 @@
+<section id="journey" class="py-24 sm:py-28">
+  <div class="ess-container">
+    <span class="section-eyebrow">Legacy / Journey</span>
+    <h2 class="section-title">Built Through 25 Years of Continuity</h2>
+    <p class="section-copy">
+      EnlightenSoft has evolved by sustaining real operational responsibilities over time. Each era added deeper controls, stronger tooling, and more deliberate platform architecture.
+    </p>
+
+    <div class="mt-14 grid gap-6 lg:grid-cols-4">
+      <article
+        *ngFor="let milestone of milestones(); let index = index"
+        class="panel-surface relative overflow-hidden p-7"
+      >
+        <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
+        <span class="text-sm font-medium text-amber-600">0{{ index + 1 }}</span>
+        <p class="mt-6 text-sm uppercase tracking-[0.28em] text-neutral-400">{{ milestone.period }}</p>
+        <h3 class="mt-4 text-2xl font-normal text-neutral-950">{{ milestone.title }}</h3>
+        <p class="mt-4 text-sm text-neutral-600">{{ milestone.description }}</p>
+      </article>
+    </div>
+  </div>
+</section>

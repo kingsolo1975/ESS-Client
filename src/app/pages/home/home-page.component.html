@@ -1,0 +1,14 @@
+<div class="min-h-screen bg-[#f6f6f4]">
+  <app-header />
+  <main>
+    <app-hero-section />
+    <app-anniversary-section *ngIf="showAnniversary" />
+    <app-timeline-section [milestones]="timelineMilestones" />
+    <app-engineering-section />
+    <app-xbos-section />
+    <app-compliance-section />
+    <app-final-cta-section />
+  </main>
+  <app-footer />
+  <app-scroll-top />
+</div>

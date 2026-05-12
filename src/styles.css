@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ess-navy-950: #080808;
+  --ess-navy-900: #111111;
+  --ess-navy-850: #181818;
+  --ess-gold: #d4af37;
+  --ess-orange: #e86020;
+  --ess-light: #f8fafc;
+  --ess-border: rgba(255, 255, 255, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #ffffff;
+  color: #111111;
+}
+
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-normal tracking-tight text-neutral-950;
+  }
+
+  p {
+    @apply leading-8 text-neutral-600;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  button {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  .ess-container {
+    @apply mx-auto w-full max-w-7xl px-6 sm:px-9 lg:px-12;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-400/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.3em] text-amber-700;
+  }
+
+  .section-title {
+    @apply mt-6 max-w-3xl text-3xl font-light leading-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .section-copy {
+    @apply mt-6 max-w-3xl text-base text-neutral-600 sm:text-lg;
+  }
+
+  .panel-surface {
+    @apply rounded-3xl border border-black/10 bg-white shadow-[0_24px_80px_-32px_rgba(0,0,0,0.14)];
+  }
+}
