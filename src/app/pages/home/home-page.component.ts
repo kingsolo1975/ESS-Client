@@ -6,6 +6,7 @@ import { SiteMetaService } from '../../core/site-meta.service';
 import { FooterComponent } from '../../layout/footer/footer.component';
 import { HeaderComponent } from '../../layout/header/header.component';
 import { AnniversarySectionComponent } from '../../sections/anniversary/anniversary-section.component';
+import { BrandArchitectureSectionComponent } from '../../sections/brand-architecture/brand-architecture-section.component';
 import { ComplianceSectionComponent } from '../../sections/compliance/compliance-section.component';
 import { EngineeringSectionComponent } from '../../sections/engineering/engineering-section.component';
 import { FinalCtaSectionComponent } from '../../sections/final-cta/final-cta-section.component';
@@ -26,6 +27,7 @@ import { ScrollTopComponent } from '../../shared/scroll-top/scroll-top.component
     TimelineSectionComponent,
     EngineeringSectionComponent,
     TechnologyFoundationSectionComponent,
+    BrandArchitectureSectionComponent,
     XbosSectionComponent,
     ComplianceSectionComponent,
     FinalCtaSectionComponent,
