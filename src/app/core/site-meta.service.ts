@@ -13,7 +13,7 @@ export class SiteMetaService {
     this.meta.updateTag({
       name: 'description',
       content:
-        'EnlightenSoft is a 25-year operational engineering company focused on XBOS infrastructure and the enterprise-grade 3Ps infrastructure framework: Platform, Plug-in, Performance.'
+        'EnlightenSoft is a 25-year operational engineering company focused on XBOS, an enterprise-grade 3Ps platform foundation: Platform, Plug-in, Performance.'
     });
     this.meta.updateTag({
       property: 'og:title',
@@ -22,7 +22,7 @@ export class SiteMetaService {
     this.meta.updateTag({
       property: 'og:description',
       content:
-        'Operational maturity, engineering depth, and strategic platform evolution shaped into XBOS infrastructure.'
+        'Operational maturity, engineering depth, and strategic platform evolution shaped into the XBOS operational backbone.'
     });
   }
 }

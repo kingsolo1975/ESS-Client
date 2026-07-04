@@ -33,7 +33,7 @@ export const timelineMilestones: Milestone[] = [
   {
     period: '2022–Now',
     title: 'XBOS Evolution',
-    description: 'Legacy operational depth is now formalized into XBOS infrastructure and the 3Ps infrastructure framework.'
+    description: 'Legacy operational depth is now formalized into XBOS as an integration-ready foundation and 3Ps framework.'
   }
 ];
 

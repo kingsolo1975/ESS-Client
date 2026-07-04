@@ -1,0 +1,22 @@
+<section id="technology-foundation" class="bg-white py-16 sm:py-20">
+  <div class="ess-container">
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1fr)] lg:items-start">
+      <div>
+        <span class="section-eyebrow">Engineering Stack</span>
+        <h2 class="section-title">Technology Foundation</h2>
+        <p class="section-copy">
+          XBOS is being built on a modern, modular engineering foundation designed for maintainability, integration readiness, operational visibility, and long-term platform evolution.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        <span
+          *ngFor="let item of stackItems"
+          class="rounded-2xl border border-black/10 bg-[#f7f7f5] px-4 py-3 text-sm font-medium text-neutral-800 shadow-[0_14px_34px_-28px_rgba(0,0,0,0.32)]"
+        >
+          {{ item }}
+        </span>
+      </div>
+    </div>
+  </div>
+</section>

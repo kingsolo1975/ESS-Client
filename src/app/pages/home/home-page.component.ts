@@ -10,6 +10,7 @@ import { ComplianceSectionComponent } from '../../sections/compliance/compliance
 import { EngineeringSectionComponent } from '../../sections/engineering/engineering-section.component';
 import { FinalCtaSectionComponent } from '../../sections/final-cta/final-cta-section.component';
 import { HeroSectionComponent } from '../../sections/hero/hero-section.component';
+import { TechnologyFoundationSectionComponent } from '../../sections/technology-foundation/technology-foundation-section.component';
 import { TimelineSectionComponent } from '../../sections/timeline/timeline-section.component';
 import { XbosSectionComponent } from '../../sections/xbos/xbos-section.component';
 import { ScrollTopComponent } from '../../shared/scroll-top/scroll-top.component';
@@ -24,6 +25,7 @@ import { ScrollTopComponent } from '../../shared/scroll-top/scroll-top.component
     AnniversarySectionComponent,
     TimelineSectionComponent,
     EngineeringSectionComponent,
+    TechnologyFoundationSectionComponent,
     XbosSectionComponent,
     ComplianceSectionComponent,
     FinalCtaSectionComponent,
